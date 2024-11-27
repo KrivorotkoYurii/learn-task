@@ -1,18 +1,23 @@
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: auto;
+@import './utils/mixins';
+@import './utils/variables';
+
+.outletWrapper {
+  min-height: calc(100vh - 257px);
+  padding-bottom: 56px;
+  padding-top: 72px;
+
+  margin: 0 auto;
+
+
+  @include on-tablet {
+    min-height: calc(100vh - 96px);
+    padding-bottom: 64px;
+  }
+
+  @include on-desktop {
+    min-height: calc(100vh - 96px);
+    padding-bottom: 80px;
+    padding-top: 88px;
+    max-width: 1200px;
+  }
 }
-
-.firstDiv {
-  height: 400px;
-  width: 400px;
-  border: 1px solid black;
-  border-radius: 8px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} 
