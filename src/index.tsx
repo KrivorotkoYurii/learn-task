@@ -1,4 +1,11 @@
 import { createRoot } from 'react-dom/client';
 import { Root } from './Root';
+import { QueryClient, QueryClientProvider } from 'react-query';
 
-createRoot(document.getElementById('root') as HTMLDivElement).render(<Root />);
+const queryClient = new QueryClient();
+
+createRoot(document.getElementById('root') as HTMLDivElement).render(
+  <QueryClientProvider client={queryClient}>
+    <Root />
+  </QueryClientProvider>,
+);

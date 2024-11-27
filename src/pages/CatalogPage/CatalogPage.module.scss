@@ -1,1 +1,27 @@
-// w
+.recipesContainer {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.recipesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.recipeItem {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.recipeImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
