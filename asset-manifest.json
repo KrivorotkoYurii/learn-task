@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/learn-task/static/css/main.f5f11931.css",
+    "main.js": "/learn-task/static/js/main.990803cb.js",
+    "static/media/tomato.png": "/learn-task/static/media/tomato.4405c07db784c272a39d.png",
+    "static/media/page-not-found.png": "/learn-task/static/media/page-not-found.6f5b123471bc09721371.png",
+    "index.html": "/learn-task/index.html",
+    "main.f5f11931.css.map": "/learn-task/static/css/main.f5f11931.css.map",
+    "main.990803cb.js.map": "/learn-task/static/js/main.990803cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5f11931.css",
+    "static/js/main.990803cb.js"
+  ]
+}
